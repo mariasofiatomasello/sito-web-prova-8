@@ -1,0 +1,118 @@
+
+
+
+
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+main{
+    background-color: #fefefe;
+}
+
+
+header{
+    max-width: 100%;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+
+}
+
+header p {
+    margin: 0;
+    padding: 100px;
+    font-weight: bold;
+    text-transform: uppercase ;
+    font-size: 150px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 100px;
+    font-size: 100px;
+     list-style: none;
+    display: flex;
+    gap: 16px;
+   
+}
+
+
+
+
+
+header  a {
+    text-decoration: none;
+    color:orangered;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav a {
+    margin: 70px;
+    color:white;
+}
+header nav a:hover {
+    color: black;
+}
+
+section.info {
+    padding: 80px  16px;
+}
+
+section.info h1 {
+    margin: 300px;
+    color: orange;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+section.info p {
+    font-size: 100px;
+    text-align: left;
+    max-width: 45%;
+    margin: 300px;
+}
+
+section.card img {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+section.testo p {
+    font-size: 80px;
+    margin: 300px;
+    text-align: left;
+
+}
+
+section.testo h2{
+    font-size: 140px;
+    color: green;
+    margin: 300px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+}
+
+.grid img{
+    max-width: 80%;
+}
+
+footer{
+    font-size: 80px;
+    text-align: center;
+    margin: 100px;
+    color: #fefefe;
+}
